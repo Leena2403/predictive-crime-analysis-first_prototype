@@ -74,10 +74,10 @@ Dataset contains incidents derived from KSP Crime Incident Reporting system. The
 
 
 #### Heatmap of districts given category of crime
-![](Visualizations/dist_heat_map.png?raw=true)
+![](Visualisations/dist_heat_map.png?raw=true)
 
 #### Confidence Matrix for criminals based on the crime and location selected
-![](Visualizations/confidence%20matrix.png?raw=true)
+![](Visualisations/confidence%20matrix.png?raw=true)
 
 #### Bar Graph of Top Crimes per District
 ![](Visualisations/crime_per_year_district.jpg?raw=true)
