@@ -46,13 +46,15 @@ Using Scikit Learn, predictions have been made for both crime and criminal analy
 
 ## Folders
 **Visualisationss**
-- [Analysis]([https://github.com/Leena2403/main](https://github.com/Leena2403/predictive-crime-analysis-first_prototype/edit/main/Visualizations) - The main visualisations from our web app providing the png files for bar graphs, line plots and maps.
+- [Analysis](https://github.com/Leena2403/predictive-crime-analysis-first_prototype/tree/main/Visualisations) - The main visualisations from our web app providing the png files for bar graphs, line plots, and maps.
+ - The main visualisations from our web app providing the png files for bar graphs, line plots and maps.
 - Districtwise plotting of crime along with the heat maps is present.
 - Vulnerable crime areas are included using records of victim analysis. Folium is being used to display the auto-generated html files.
 
 **Data Predictions**
 
-- [Crime Prediction]([https://github.com/k-chuang/kaggle-sf-crime/blob/master/cv_results](https://github.com/Leena2403/predictive-crime-analysis-first_prototype/edit/main/crime_prediction.py) - folder containing the hyperparameter tuning results (accuracy score & mean squared error) at each iteration of different machine learning models.
+- [Crime Prediction](https://github.com/Leena2403/predictive-crime-analysis-first_prototype/blob/main/crime_prediction.py) - Link to the `crime_prediction.py` file in the repository.
+ - folder containing the hyperparameter tuning results (accuracy score & mean squared error) at each iteration of different machine learning models.
 - Crime Prediction is using regression models; Decision Tree Regression and XGBoost Regression for predicting the number of crimes for particular crime head mentioned in FIR dataset. Using hyperparameter tuning outputs, the output is toggled between the abovementioned models based on their accuracy scores and mean squared error. The model is able to achieve almost 99% accuracy scores.
 - Criminal Prediction is using Random Forest Classifier to predict the criminal behavior based on certain parameters like crime history, that helps in identifying the type of crime that can be committed by the criminal. This is currently a low accuracy model due to discrepencies faced for data quality and can be improved by further upgrading the data.
 - Criminal Prediction Original is a heavier and more accurate model of criminal prediction which uses a similar approach as the previously mentioned point, but it refers to three distinct datasets; `VictimInfoDetails, FIR_Details_Data, Accused_Person_Info`. This helps in analysing the socio-economic background, age, profession, caste, etc. of the criminal and the intended motives as well as injuries incurred by the criminal.
