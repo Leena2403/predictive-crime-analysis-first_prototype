@@ -96,6 +96,9 @@ Dataset contains incidents derived from KSP Crime Incident Reporting system. The
 #### Victim Details 
 ![](Visualisations/victim%20details.png)
 
+#### Deployment Plan
+![](Visualisations/deploment%20model%20ai.png)
+
 
 
 
