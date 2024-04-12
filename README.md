@@ -46,7 +46,7 @@ Using Scikit Learn, predictions have been made for both crime and criminal analy
 
 ## Folders
 **Visualisationss**
-- [Analysis](https://github.com/Leena2403/predictive-crime-analysis-first_prototype/tree/main/Visualisations) - The main visualisations from our web app providing the png files for bar graphs, line plots, and maps.
+- [Visualisations](https://github.com/Leena2403/predictive-crime-analysis-first_prototype/tree/main/Visualisations) - The main visualisations from our web app providing the png files for bar graphs, line plots, and maps.
  - The main visualisations from our web app providing the png files for bar graphs, line plots and maps.
 - Districtwise plotting of crime along with the heat maps is present.
 - Vulnerable crime areas are included using records of victim analysis. Folium is being used to display the auto-generated html files.
@@ -62,7 +62,7 @@ Using Scikit Learn, predictions have been made for both crime and criminal analy
 
 **Deployment Plan AI**
 
-- [Deployment Plan]([https://github.com/k-chuang/kaggle-sf-crime/blob/master/cv_results](https://github.com/Leena2403/predictive-crime-analysis-first_prototype/edit/main/DeploymentPlan.py)
+- [Deployment Plan](https://github.com/Leena2403/predictive-crime-analysis-first_prototype/blob/main/DeploymentPlan.py) - Link to the `DeploymentPlan.py` file in the repository.
 - Clustering of the crime heads is achieved by approaching K-means clustering. A thorough elbow-analysis is conducted in order to retrieve the ideal cluster size, which came out to be 18 in this specific case. A new dataset which contains the crime head corresponding to its cluster is created and stored for ease of access namely cluster_dict. Using clustering information different prompts have been stored in an array which has been using supportive prompts from pre-existing GenAI models; ChatGPT 3.5 Turbo. API approaches were made, however, it couldn't be successfully deployed due to the current upgradation discrepencies from the organisations. However, API based services can be still integrated in the current model, once the services resume. Till then the self-built array provides a comprehensive solution to each and every clustered crimes.
 - Each deployment plan is provided for each beat that is chosen by the user and is flexible enough to provide a deployment plan for any range of locations.
 - Each plan has a group of suggestions which not only provides the needful information for the police but also suggests the interactive activities that are being needed to involve the community and educate the potential victims hence spreading awareness, providing a holistic approach to the intended audience.
