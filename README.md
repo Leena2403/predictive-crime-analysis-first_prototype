@@ -61,7 +61,7 @@ Using Scikit Learn, predictions have been made for both crime and criminal analy
 - Districtwise crimes uses Linear Regression, Decision Tree Regession and Random Forest Regression for providing an estimated count of crimes for particular district in upcoming year. Hyperparameter tuning is used on accuracy scores & mean-squared-error to produce the most accurate count of crimes.
 
 **Criminal Prediction
-- [Criminal Prediction](https://github.com/Leena2403/predictive-crime-analysis-first_prototype/blob/main/criminal_prediction.py) - Link to the `crime_prediction.py` file in the repository.
+- [Criminal Prediction](https://github.com/Leena2403/predictive-crime-analysis-first_prototype/blob/main/criminal_prediction.py) - Link to the `criminal_prediction.py` file in the repository.
 - Criminal prediction is uses a combination of parameters like District, Unit name, month, year and crime no. and accordingly filters the dataset to fetch the probable criminals for a possible crime. Further it uses conditional probability to compute a statistical model called "Confidence Matrix". The graph and tabular output is hence computed as a result.
 - The Arrested Person's id is used to fetch the information of a previously arrested criminal. This helps in spotting a criminal easily.
 - The Predictive Criminal Analysis uses FIR number, Unit ID and Crime Number and further uses Random Forest Classifier to provide the possible Crime commited by the criminal and hence helps in finding the crimes that a criminal can commit.
