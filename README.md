@@ -1,4 +1,4 @@
-# Predictive Crime Analysis First Prototype Using Streamlit
+# Predictive Crime Analysis Current Prototype Using Streamlit
 * Author: Leena Goyal [@Leena2403](https://www.github.com/Leena2403) and Souryadeepta Majumdar [@majumdarsouryadeepta](https://www.github.com/majumdarsouryadeepta)
 * Created on: April 12, 2024
 * Description: Data analysis, exploration & visualization on crime incidents in Karnataka
